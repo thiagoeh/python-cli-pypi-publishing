@@ -1,11 +1,11 @@
 [tool.poetry]
 name = "dummy-python-cli"
-version = "0.1.0"
+version = "0.1.0a"
 description = ""
 authors = ["Your Name <you@example.com>"]
 license = "MIT-0"
 readme = "README.md"
-packages = [{include = "dummy_python_cli"}]
+packages = [{include = "dummy-python-cli"}]
 
 [tool.poetry.dependencies]
 python = "^3.10"
@@ -17,4 +17,4 @@ requires = ["poetry-core"]
 build-backend = "poetry.core.masonry.api"
 
 [tool.poetry.scripts]
-APPLICATION-NAME = 'entry:main'
+dummy-cli = 'entry:main'
